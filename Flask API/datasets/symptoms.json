@@ -1,0 +1,51 @@
+{"symptoms": [
+        {"tag": "greeting",
+         "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day", "Whats up"],
+         "responses": ["Hello!", "Good to see you again!", "Hi there, how can I help?"]
+        },
+        {"tag": "goodbye",
+         "patterns": ["cya", "See you later", "Goodbye", "I am Leaving", "Have a Good day"],
+         "responses": ["Sad to see you go :(", "Talk to you later", "Goodbye!"]
+        },
+        {"tag": "temperature",
+         "patterns": ["My body temperature is high", "I think I have suffer from fever", "My body temperature is above 99", " body temperature above 100"],
+         "responses": ["Can you please mention your Body Temperature!", "do you have difficulty concentrating!", "Do have increased sensitivity to pain"]
+        },
+        {"tag": "concentrating",
+         "patterns": ["Yes I have", "Yes I do have difficulty concentrating!", "difficulty concentrating!"],
+         "responses": ["Can you please mention your Body Temperature!","Do have increased sensitivity to pain", "do you have signs of dehydration", "Is there any signs of dehydration"]
+        },
+        {"tag": "sensitivity",
+         "patterns": ["have increased sensitivity to pain", "increased sensitivity to pain", "sensitivity to pain"],
+         "responses": ["Can you please mention your Body Temperature!","Is there any signs of dehydration", "do you have signs of dehydration", "signs of dehydration"]
+        },
+        {"tag": "dehydration",
+         "patterns": ["signs of dehydration", "yes I do have signs of dehydration", "dehydration"],
+         "responses": ["Can you please mention your Body Temperature!", "We are analyzing your data wait"]
+        },
+        {"tag": "result",
+         "patterns": ["result", "report", "report time"],
+         "responses": ["Thank you\nHere is Your Report \nBy analyzing your data You are suffer from Fever", "Thank You\nHere is Your Report\nBy analyzing your data you are suffer from fever"]
+        },
+
+        {"tag": "medicine",
+         "patterns": ["Suggest me a medicine", "Which Medicine will be best for me", "Can you suggest me a medicine", "medicine"],
+         "responses": ["Thank you for asking for medicine I can suggest you medicine but it's good to check with doctors. I am a bot so there may be a technical issues\nEven though as per your request Here are some medicine I will suggest for You\nCodomol\nParacetamol ", "Thank You\nBy analyzing your data you are suffer from fever"]
+        },
+
+        {"tag": "nose",
+         "patterns": ["feeling runny or stuffy nose", "feeling change in Sore Throat", "have cough", "feeling sneezing"],
+         "responses": ["I think you are suffer from common cold can you clearly mention your symptoms, Do you feel change in sore throat, Coughh"]
+        },
+        
+        {"tag": "coughh",
+                "patterns": ["feeling runny or stuffy nose", "feeling change in Sore Throat", "have cough", "feeling sneezing"],
+                "responses": ["You have common cold, For Common cold take any Diphenhydramine or Antihistamines"]
+        },
+        {"tag": "sore",
+                "patterns": ["feeling runny or stuffy nose", "feeling change in Sore Throat", "have cough", "feeling sneezing"],
+                "responses": ["You have common cold, For Common cold take any Diphenhydramine or Antihistamines"]
+        }
+
+   ]
+}
